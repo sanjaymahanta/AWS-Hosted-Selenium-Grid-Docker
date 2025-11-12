@@ -169,9 +169,9 @@ public class DriverManager {
 	        String gridURL = "https://" + username + ":" + accessKey + "@hub.lambdatest.com/wd/hub";
 
 	        MutableCapabilities ltOptions = new MutableCapabilities();
-	        ltOptions.setCapability("build", "PeopleGrove Automation Build");
-	        ltOptions.setCapability("project", "Career Portal Tests");
-	        ltOptions.setCapability("name", "Career Navigation Test");
+	        ltOptions.setCapability("build", "herokuapp");
+	        ltOptions.setCapability("project", "herokuapp");
+	        ltOptions.setCapability("name", "herokuapp");
 	        ltOptions.setCapability("visual", true);
 	        ltOptions.setCapability("video", true);
 	        ltOptions.setCapability("network", true);
